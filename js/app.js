@@ -83,3 +83,7 @@ $(document).ready(function () {
 
       });
 });
+
+// Generating Copyright Year Dynamically
+let getYear = new Date().getFullYear();
+let yearID = document.getElementById('copyrightYear').textContent= getYear;

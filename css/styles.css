@@ -1,8 +1,15 @@
 .dark-bg {
   background-color: rgba(250, 250, 250, 0.9); }
 
+ul {
+  list-style: none; }
+
 .primary-text {
-  color: #6C1D43; }
+  color: #6C1D43;
+  text-transform: uppercase; }
+
+section {
+  padding: 4rem 0; }
 
 p {
   margin: 0; }
@@ -45,6 +52,9 @@ p {
 
 .t-center {
   text-align: center; }
+
+.uppercase {
+  text-transform: uppercase; }
 
 /*** TestimonialS Slider - Free Weebly Widget by Baamboo Studio - Style 2 ***/
 .testimonial_slider_2 {
@@ -192,8 +202,7 @@ img {
 .blog__title {
   font-size: 2.2rem;
   line-height: 1.4;
-  color: #424242 !important;
-  font-weight: 400; }
+  color: #424242 !important; }
 
 .blogPost__readLink {
   color: #6C1D43;
@@ -227,6 +236,16 @@ img {
   padding: 1.3rem 2rem;
   border-radius: 1rem; }
 
+.btn-tertiary {
+  background-color: #6C1D43;
+  border: none;
+  color: #f3f3f3;
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+  display: block;
+  outline: none;
+  min-width: 100%; }
+
 .form-group {
   margin-bottom: 1rem; }
   .form-group label {
@@ -238,6 +257,26 @@ img {
   padding: 1.3rem;
   outline: none;
   min-width: 100%; }
+
+.footer {
+  background-color: #19202A;
+  color: #f3f3f3;
+  padding: 2rem 0;
+  font-size: 1.6rem; }
+
+.subfooter {
+  background-color: #19202A;
+  color: #f3f3f3;
+  font-size: 1.5rem;
+  font-size: 1.6rem; }
+
+.sub-footer__link {
+  color: #f3f3f3;
+  padding-left: 1rem; }
+
+.subFooter__list {
+  display: flex;
+  align-items: center; }
 
 .courses {
   background-color: rgba(250, 250, 250, 0.9);
