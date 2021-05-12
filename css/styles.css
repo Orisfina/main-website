@@ -5,20 +5,18 @@ ul {
   list-style: none; }
 
 .primary-text {
-  color: #29303b; }
+  color: #29303b;
+  font-size: 3.2rem !important; }
 
 section {
   padding: 4rem 0; }
 
 p {
-  font-size: 1.8rem;
   line-height: 2.8rem;
-  margin-block-start: 2.4rem;
-  margin-block-end: 2.4rem;
   font-family: 'Open Sans',Helvetica,Arial,sans-serif; }
 
 .primary-header {
-  font-size: 4.2rem !important; }
+  font-size: 3.7rem !important; }
 
 .secondary-header {
   font-size: 2rem !important; }
@@ -298,8 +296,14 @@ img {
   color: #f3f3f3;
   padding-left: 1rem; }
 
+.navbar {
+  height: 8vh !important; }
+
 .slideshow-content {
-  padding-top: 8rem !important; }
+  padding-top: 6rem !important; }
+
+.slideshow {
+  height: 92vh !important; }
 
 .courses {
   background-color: rgba(250, 250, 250, 0.9);
@@ -310,3 +314,6 @@ img {
 
 .assurance__box--heading {
   font-size: 2rem; }
+
+.benefits {
+  padding: 8rem 2rem !important; }
