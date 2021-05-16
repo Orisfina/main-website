@@ -4,22 +4,59 @@
 ul {
   list-style: none; }
 
-.primary-text {
-  color: #29303b;
-  font-size: 3.2rem !important; }
+.hide {
+  display: none; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #040405;
+  letter-spacing: normal; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem; }
 
 section {
   padding: 4rem 0; }
 
 p {
   line-height: 2.8rem;
-  font-family: 'Open Sans',Helvetica,Arial,sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
 
 .primary-header {
-  font-size: 3.7rem !important; }
+  font-size: 3.7rem;
+  line-height: 1.2; }
 
 .secondary-header {
-  font-size: 2rem !important; }
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 3rem; }
+
+.tracking-tight {
+  letter-spacing: 0.02rem; }
+
+.primary-text {
+  color: #29303b;
+  font-size: 2.4rem;
+  line-height: 4.2rem; }
+
+.tertiary-text {
+  padding-bottom: 1rem; }
 
 p {
   margin: 0; }
@@ -66,10 +103,51 @@ p {
 .uppercase {
   text-transform: uppercase; }
 
+.t-justify {
+  text-align: justify; }
+
+.t-fogra {
+  color: #011627; }
+
+.t-red {
+  color: #ed1c42; }
+
+a {
+  text-decoration: none;
+  display: block; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+input[type="button"], input[type="submit"], li.parallelogram {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all; }
+
+label {
+  margin: 0; }
+
+.logo {
+  font-size: 2.1rem;
+  font-weight: bold; }
+
+.icon-color {
+  color: #6C1C3F; }
+
+.course_link {
+  color: #6C1C3F; }
+
+.demo {
+  display: block;
+  width: auto; }
+
 /*** TestimonialS Slider - Free Weebly Widget by Baamboo Studio - Style 2 ***/
 .testimonial_slider_2 {
   width: 100%;
-  border: 001px solid #fffafa;
   overflow: hidden;
   box-sizing: border-box;
   padding-bottom: 30px; }
@@ -131,7 +209,7 @@ p {
 
 .testimonial_2 {
   font-size: 16px !important;
-  color: #333;
+  color: #fff8f0;
   /* Change testimonial paragraph text color */
   padding: 16px 0px 7px; }
 
@@ -154,6 +232,12 @@ p {
 .content_2:after {
   background: url(icon_testimonial_2_after.png) 0 0 no-repeat;
   margin: 5px 10px; }
+
+.testimonial h2 {
+  color: #fff8f0; }
+
+.author_2 h3, h4 {
+  color: #fff8f0 !important; }
 
 .testimonial_2 p {
   display: inline; }
@@ -259,9 +343,19 @@ img {
   outline: none;
   min-width: 100%; }
 
+.btn-primary {
+  background-color: #ed1c42;
+  color: #fff; }
+
 .slideshow-btn {
-  padding: 1.45rem 5rem !important;
-  display: inline !important; }
+  padding: .9rem 1rem;
+  width: 50%;
+  font-size: 1.7rem;
+  background-color: #011627;
+  color: #fff8f0;
+  border-radius: .7rem;
+  border: none;
+  outline: none; }
 
 .form-group {
   margin-bottom: 1rem; }
@@ -297,13 +391,24 @@ img {
   padding-left: 1rem; }
 
 .navbar {
-  height: 8vh !important; }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh; }
 
-.slideshow-content {
-  padding-top: 6rem !important; }
+.navbar__list {
+  display: none; }
 
 .slideshow {
-  height: 92vh !important; }
+  height: 92vh;
+  padding: 0 1rem;
+  background-image: url("/images/Wave-3.4s-1366px.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .courses {
   background-color: rgba(250, 250, 250, 0.9);
@@ -316,4 +421,18 @@ img {
   font-size: 2rem; }
 
 .benefits {
-  padding: 4rem 2rem !important; }
+  padding: 4rem 2rem; }
+
+.assurance {
+  background-image: url("/images/trust.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff8f0; }
+  .assurance__box--heading {
+    padding-bottom: 0.8rem; }
+
+.testimonial {
+  background-image: url(/images/feedback.jpg);
+  background-attachment: fixed;
+  background-position: left; }
