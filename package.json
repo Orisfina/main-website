@@ -1,0 +1,35 @@
+{
+  "name": "main-website",
+  "version": "1.0.0",
+  "description": "Website for Orisfina Computer Bootcamp using (HTML, CSS and JS version)",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orisfina/main-website.git"
+  },
+  "keywords": [
+    "orisfina",
+    "auchi",
+    "edo",
+    "state",
+    "best",
+    "computer",
+    "center",
+    "in",
+    "Auchi"
+  ],
+  "author": "Joshua Oyewole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orisfina/main-website/issues"
+  },
+  "homepage": "https://github.com/Orisfina/main-website#readme"
+}

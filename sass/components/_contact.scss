@@ -1,0 +1,14 @@
+.form-group{
+    margin-bottom: 1rem;
+    & label{
+        display: block;
+        padding: 1rem 0 .5rem 0;
+    }
+}
+
+.form-control{
+    display: block;
+    padding: 1.3rem;
+    outline: none;
+    min-width: 100%;
+}

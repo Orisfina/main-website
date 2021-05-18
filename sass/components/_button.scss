@@ -1,0 +1,32 @@
+.btn-secondary{
+    background-color: $tertiary-color;
+    color: #f3f3f3;
+    padding: 1.5rem 2rem;
+    border-radius: 20rem;
+}
+
+.btn-tertiary{
+    background-color: $tertiary-color;
+    border: none;
+    color: #f3f3f3;
+    font-size: 1.6rem;
+    padding: 1.6rem 0;
+    display: block;
+    outline: none;
+    min-width: 100%;
+}
+
+.btn-primary {
+    background-color: $red;
+    color: #fff; }
+  
+  .slideshow-btn {
+    padding: .9rem 1rem;
+    width: 50%;
+    font-size: 1.7rem;
+    // background-color: $fogra;
+    background-color: #0d5d9e;
+    color: $white;
+    border-radius: .7rem;
+    border: none;
+    outline: none; }

@@ -1,0 +1,28 @@
+.footer{
+    background-color: #090c0f;
+    color: #f3f3f3;
+    padding: 2rem 0;
+    font-size: 1.6rem;
+}
+
+.subFooter{
+    background-color: #19202A;
+    color: #f3f3f3;
+    font-size: 1.5rem;
+    
+
+    &__heading{
+        padding-bottom: .7rem;
+        font-size: 1.5rem;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+    }
+}
+
+.sub-footer__link{
+    color: #f3f3f3;
+    padding-left: 1rem;
+}
