@@ -330,10 +330,12 @@ li {
   list-style: none; }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem; }
+  padding: 1rem 1.5rem;
+  top: 0;
+  position: fixed;
+  z-index: 2555;
+  width: 100%;
+  background-color: #6E1D41; }
 
 .nav-link {
   font-size: 1.6rem;
@@ -343,7 +345,7 @@ li {
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
-  color: #011627; }
+  color: #fff8f0; }
 
 .nav-menu {
   position: fixed;
@@ -355,7 +357,8 @@ li {
   border-radius: 10px;
   text-align: center;
   transition: 0.3s;
-  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05); }
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  z-index: 100; }
 
 .nav-menu.active {
   left: 0; }
@@ -370,7 +373,7 @@ li {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010; }
+  background-color: #ffffff; }
 
 .hamburger {
   display: block;
@@ -387,6 +390,9 @@ li {
   -webkit-transform: translateY(-8px) rotate(-45deg);
   transform: translateY(-8px) rotate(-45deg); }
 
+.header {
+  border-bottom: 1px solid #E2E8F0; }
+
 @media only screen and (min-width: 768px) {
   .hamburger {
     display: none; }
@@ -402,8 +408,6 @@ li {
     flex-direction: inherit;
     width: 35%;
     border-radius: 0; }
-  .header {
-    border-bottom: 1px solid #E2E8F0; }
   .nav-item {
     margin-left: 5rem; } }
 
@@ -531,10 +535,13 @@ li {
   width: 100%;
   margin: auto;
   max-width: 52.5rem;
-  min-height: 67rem;
+  min-height: 90rem;
   position: relative;
   background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
   box-shadow: 0 1.2rem 1.5rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19); }
+
+.form-check-label {
+  color: #fff8f0; }
 
 .tab-1 {
   color: #fff8f0; }
@@ -561,6 +568,9 @@ li {
 .login-html .sign-up,
 .login-form .group .check {
   display: none; }
+
+.group__s {
+  margin-bottom: .5rem; }
 
 .login-html .tab,
 .login-form .group .label,
@@ -661,7 +671,7 @@ li {
 
 .hr {
   height: .2rem;
-  margin: 60px 0 .5rem 0;
+  margin: 6rem 0 5rem 0;
   background: rgba(255, 255, 255, 0.2); }
 
 .foot-lnk {
