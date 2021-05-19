@@ -1,3 +1,22 @@
+#cosubmit {
+    border: 2px solid transparent;
+    border-color: transparent !important;
+    border-radius: 0px 0px 0px 0px;
+    background: linear-gradient(to right, #0177a9, #19b6fa), linear-gradient(
+90deg
+, #0177a9, #19b6fa);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    padding: 16px 37px 16px 37px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    height: 56px;
+    color: #FFFFFF;
+}
+
+
 .btn-secondary{
     background-color: $tertiary-color;
     color: #f3f3f3;
