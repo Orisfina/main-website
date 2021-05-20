@@ -14,16 +14,16 @@
             <a href="../index.html" class="nav-logo">Orisfina</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"> Home </a>
+                    <a href="../index.html" class="nav-link"> Home </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="/blog/" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="../pages/about-orisfina-bootcamp.html" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="../pages/our-courses.html" class="nav-link">Courses</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -43,27 +43,35 @@
                     <div class="sign-in-htm">
                         <div class="group">
                             <label for="fname" name='fname' class="label">First Name: </label>
-                            <input id="fname" type="text" class="input" data-type="text" name="fname">
+                            <input id="fname" type="text" class="input" data-type="text" name="fname" required>
                         </div>
                         <div class="group">
                             <label for="fname" name='lname' class="label">Last Name: </label>
-                            <input id="pass" type="text" class="input" data-type="text" name="fname">
+                            <input id="pass" type="text" class="input" data-type="text" name="fname" required>
                         </div>
                         <div class="group">
                             <label for="email" class="label">Email Address</label>
-                            <input id="email" type="email" class="input" placeholder="example@email.com">
+                            <input id="email" type="email" class="input" placeholder="example@email.com" required>
                         </div>
                         <div class="group">
                             <label for="user-address" class="label">Home Address: </label>
-                            <textarea id="address"  row='3' class="input"> </textarea>
+                            <textarea id="address"  row='3' class="input" required> </textarea>
                         </div>
                         <div class="group">
                             <label for="email" class="label">Phone No:</label>
-                            <input id="phone" type="number" class="input" placeholder="+2347036...">
+                            <input id="phone" type="number" class="input" placeholder="+2347036..." required>
+                        </div>
+                        <div class="group">
+                            <label for="inputSex" class="label">Sex:</label>
+                            <select id="inputSex" class="input" name="Sex" required>
+                                <option selected="">Choose...</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
                         </div>
                         <div class="group">
                             <label for="inputCourse" class="form-label">Select Course: </label>
-                            <p style="color: rgb(253, 251, 251);">Select your desired course</p>
+                            <p style="color: #0e0d0e;">Select your desired course</p>
                         </div>
                         <div class="group__s">
                             <input class="form-check-input" type="radio" value="Web Design" id="inputCourse" name="course">

@@ -393,7 +393,7 @@ li {
 .header {
   border-bottom: 1px solid #E2E8F0; }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .hamburger {
     display: none; }
   .nav-link:hover {
@@ -535,13 +535,15 @@ li {
   width: 100%;
   margin: auto;
   max-width: 52.5rem;
-  min-height: 90rem;
+  min-height: 100rem;
   position: relative;
-  background: url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
   box-shadow: 0 1.2rem 1.5rem 0 rgba(0, 0, 0, 0.24), 0 1.7rem 5rem 0 rgba(0, 0, 0, 0.19); }
 
 .form-check-label {
-  color: #fff8f0; }
+  color: #19202a; }
+
+.form-label {
+  color: red; }
 
 .tab-1 {
   color: #fff8f0; }
@@ -551,7 +553,7 @@ li {
   height: 100%;
   position: absolute;
   padding: 9rem 2rem 5rem 2rem;
-  background: rgba(40, 57, 101, 0.9); }
+  background: #fff; }
 
 .login-html .sign-in-htm,
 .login-html .sign-up-htm {
@@ -587,7 +589,7 @@ li {
 
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab {
-  color: #fff;
+  color: #6e1d41;
   border-color: #1161ee; }
 
 .login-form {
@@ -603,25 +605,27 @@ li {
 .login-form .group .input,
 .login-form .group .button {
   width: 100%;
-  color: #fff;
+  color: #090c0f;
   display: block; }
 
 .login-form .group .input,
 .login-form .group .button {
-  border: none;
+  border: 0.2px solid #6e1d41;
   padding: 1.5rem 2rem;
-  border-radius: 2.5rem;
-  background: rgba(255, 255, 255, 0.1); }
+  border-radius: .5rem;
+  background: #f3f3f3;
+  outline: none; }
 
 .login-form .group input[data-type="password"] {
   -webkit-text-security: circle; }
 
 .login-form .group .label {
-  color: #aaa;
+  color: #040405;
   font-size: 1.2rem; }
 
 .login-form .group .button {
-  background: #1161ee; }
+  background: #6C1D43;
+  color: #fff8f0; }
 
 .login-form .group label .icon {
   width: 1.5rem;

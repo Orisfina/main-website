@@ -3,16 +3,18 @@
 	width:100%;
 	margin:auto;
 	max-width:52.5rem;
-	min-height:90rem;
+	min-height:100rem;
 	position:relative;
-	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+	// background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
 	box-shadow:0 1.2rem 1.5rem 0 rgba(0,0,0,.24),0 1.7rem 5rem 0 rgba(0,0,0,.19);
 }
 
 .form-check-label{
-	color: $white;
+	color: #19202a;
 }
-
+.form-label{
+	color: red;
+}
 .tab-1{
     color: $white;
 }
@@ -21,7 +23,8 @@
 	height:100%;
 	position:absolute;
 	padding: 9rem 2rem 5rem 2rem;
-	background:rgba(40,57,101,.9);
+	background: #fff;
+	// background:rgba(40,57,101,.9);
 }
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
@@ -57,7 +60,7 @@
 }
 .login-html .sign-in:checked + .tab,
 .login-html .sign-up:checked + .tab{
-	color:#fff;
+	color: #6e1d41;
 	border-color:#1161ee;
 }
 .login-form{
@@ -73,25 +76,27 @@
 .login-form .group .input,
 .login-form .group .button{
 	width:100%;
-	color:#fff;
+	color: #090c0f;
 	display:block;
 }
 .login-form .group .input,
 .login-form .group .button{
-	border:none;
-	padding:1.5rem 2rem;
-	border-radius:2.5rem;
-	background:rgba(255,255,255,.1);
+	border: 0.2px solid #6e1d41;
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+    background: #f3f3f3;
+    outline: none;
 }
 .login-form .group input[data-type="password"]{
 	-webkit-text-security:circle;
 }
 .login-form .group .label{
-	color:#aaa;
+    color: #040405;
 	font-size:1.2rem;
 }
 .login-form .group .button{
-	background:#1161ee;
+	background:$tertiary-color;
+	color: $white;
 }
 .login-form .group label .icon{
 	width:1.5rem;
