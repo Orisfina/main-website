@@ -531,6 +531,11 @@ li {
   background-attachment: fixed;
   background-position: left; }
 
+.slideshow__2 {
+  height: 55vh;
+  background-image: url(/images/Wave-3.4s-1366px.svg);
+  color: #f3f3f3; }
+
 .login-wrap {
   width: 100%;
   margin: auto;
