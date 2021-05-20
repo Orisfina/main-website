@@ -37,8 +37,8 @@
     <div class="login-wrap dark-bg">
          <div class="login-html">
             <form data-netlify="true" name='Registration-Form' action="../pages/success.html">
-                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign Up</label>
-                <input id="tab-2" type="radio" name="tab" class="sign-up hide"><label for="tab-2" class="tab" style="display: none;">Sign Up</label>
+                <input id="tab-1" type="radio" class="sign-in" checked><label class="tab">Sign Up</label>
+                <input id="tab-2" type="radio" class="sign-up hide"><label for="tab-2" class="tab" style="display: none;">Sign Up</label>
                 <div class="login-form m-t-small">
                     <div class="sign-in-htm">
                         <div class="group">
@@ -46,47 +46,47 @@
                             <input id="fname" type="text" class="input" data-type="text" name="fname" required>
                         </div>
                         <div class="group">
-                            <label for="fname" name='lname' class="label">Last Name: </label>
-                            <input id="pass" type="text" class="input" data-type="text" name="fname" required>
+                            <label for="lname" name='lname' class="label">Last Name: </label>
+                            <input id="pass" type="text" class="input" data-type="text" name="lname" required>
                         </div>
                         <div class="group">
-                            <label for="email" class="label">Email Address</label>
-                            <input id="email" type="email" class="input" placeholder="example@email.com" required>
+                            <label for="email" name='email' class="label">Email Address</label>
+                            <input id="email" type="email" class="input" name="email" placeholder="example@email.com" required>
                         </div>
                         <div class="group">
                             <label for="user-address" class="label">Home Address: </label>
-                            <textarea id="address"  row='3' class="input" required> </textarea>
+                            <textarea id="address"  row='3' name="user-address" class="input" required> </textarea>
                         </div>
                         <div class="group">
-                            <label for="email" class="label">Phone No:</label>
-                            <input id="phone" type="number" class="input" placeholder="+2347036..." required>
+                            <label for="user-phone" class="label" name='user-phone'  >Phone No:</label>
+                            <input id="phone" type="number" name="user-phone" class="input" placeholder="+2347036..." required>
                         </div>
                         <div class="group">
-                            <label for="inputSex" class="label">Sex:</label>
-                            <select id="inputSex" class="input" name="Sex" required>
+                            <label for="user-sex" class="label" name='user-sex'>Sex:</label>
+                            <select id="inputSex" class="input" name="user-Sex" required>
                                 <option selected="">Choose...</option>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
                             </select>
                         </div>
                         <div class="group">
-                            <label for="inputCourse" class="form-label">Select Course: </label>
+                            <label for="user-course" class="form-label">Select Course: </label>
                             <p style="color: #0e0d0e;">Select your desired course</p>
                         </div>
                         <div class="group__s">
-                            <input class="form-check-input" type="radio" value="Web Design" id="inputCourse" name="course">
-                            <label class="form-check-label" for="Web Design">
+                            <input class="form-check-input" type="radio" value="Web Design" id="inputCourse" name="user-course">
+                            <label class="form-check-label" for="Web-Design">
                                 Web Design
                             </label>
                         </div>
                         <div class="group__s">
-                            <input class="form-check-input" type="radio" value="graphics" id="inputCourse" name="course">
+                            <input class="form-check-input" type="radio" value="graphics" id="inputCourse" name="user-course">
                             <label class="form-check-label" for="graphic">
                                 Graphics Design
                             </label>
                         </div>
                         <div class="group__s">
-                            <input class="form-check-input" type="radio" value="application package" id="inputCourse" name="course">
+                            <input class="form-check-input" type="radio" value="application package" id="inputCourse" name="user-course">
                             <label class="form-check-label" for="app-package">
                                 Application Package (beginners / Intermediate)
                             </label>    
