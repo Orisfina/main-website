@@ -57,9 +57,28 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 4.2rem; }
   .primary-text--white {
     color: #fff8f0; }
+  .primary-text--light-green {
+    color: #2effbc; }
 
 .tertiary-text {
   padding-bottom: 1rem; }
+
+.tab {
+  font-size: 2.2rem;
+  margin-right: 1.5rem;
+  padding-bottom: .5rem;
+  margin: 0 1.5rem 1rem 0;
+  display: inline-block;
+  border-bottom: .2rem solid transparent;
+  border-color: #1161ee; }
+
+.graduates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding: 10rem 2rem; }
 
 p {
   margin: 0; }
@@ -438,6 +457,14 @@ li {
   background-color: #ed1c42;
   color: #fff; }
 
+.btn-blue {
+  background-color: transparent;
+  border: 1px solid #6c1d43;
+  color: #6c1d43;
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 1rem; }
+
 .slideshow-btn {
   padding: .9rem 1rem;
   width: 50%;
@@ -548,6 +575,11 @@ li {
 .box h2 {
   font-size: 4rem; }
 
+.stay-at {
+  color: #29303b;
+  font-size: 30px;
+  line-height: 42px; }
+
 .blog__title--2 {
   font-size: 2rem; }
 
@@ -575,10 +607,7 @@ li {
   padding: 4rem 2rem; }
 
 .assurance {
-  background-image: url("/images/trust.jpg");
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #075373;
   color: #fff8f0; }
   .assurance__box--heading {
     padding-bottom: 0.8rem; }
@@ -741,4 +770,31 @@ li {
   background: rgba(255, 255, 255, 0.2); }
 
 .foot-lnk {
+  text-align: center; }
+
+.course-icon {
+  margin-bottom: 1.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box-content__icon {
+  margin-right: 1rem; }
+
+.box img {
+  width: 6rem;
+  height: auto; }
+
+.overlay-color {
+  color: #e89a3d; }
+
+.box-content__text--heading {
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  color: #000000; }
+
+.red {
+  color: #6C1D43 !important;
+  font-weight: bolder;
   text-align: center; }
