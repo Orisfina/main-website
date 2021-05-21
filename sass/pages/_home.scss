@@ -18,10 +18,7 @@
     // clip-path: polygon(0 0,100% 0, 100% 85%);
     padding: 4rem 2rem; }
 .assurance{
-    background-image: url('/images/trust.jpg');
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   background-color: darken($color: $blue, $amount: 20);
     color: $white;
 
     &__box--heading{

@@ -1,0 +1,29 @@
+.course-icon {
+    margin-bottom: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-content__icon {
+    margin-right: 1rem;
+}
+.box img {
+    width: 6rem;
+    height: auto;
+}
+
+.overlay-color {
+    color: #e89a3d;
+}
+.box-content__text--heading {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+.red {
+    // color: rgb(218, 119, 0) !important;
+    color: $tertiary-color !important;
+    font-weight: bolder;
+    text-align: center;
+}
