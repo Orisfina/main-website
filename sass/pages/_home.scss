@@ -16,7 +16,13 @@
 }
 .benefits {
     // clip-path: polygon(0 0,100% 0, 100% 85%);
-    padding: 4rem 2rem; }
+    padding: 4rem 2rem; 
+}
+@media (min-width:375px){
+    .benefits {
+      padding:4rem 3rem;
+  }
+  }
 .assurance{
    background-color: darken($color: $blue, $amount: 20);
     color: $white;

@@ -26,6 +26,11 @@ html {
   padding-left: 2rem;
   padding-right: 2rem; }
 
+@media (min-width: 375px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem; } }
+
 section {
   padding: 4rem 0; }
 
@@ -533,6 +538,10 @@ li {
   justify-content: center;
   align-items: center; }
 
+@media (min-width: 375px) {
+  .slideshow-content {
+    padding-left: 2rem; } }
+
 .v-header {
   height: 50vh;
   display: flex;
@@ -609,6 +618,10 @@ li {
 
 .benefits {
   padding: 4rem 2rem; }
+
+@media (min-width: 375px) {
+  .benefits {
+    padding: 4rem 3rem; } }
 
 .assurance {
   background-color: #075373;
